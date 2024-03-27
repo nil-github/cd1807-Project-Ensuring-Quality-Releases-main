@@ -1,4 +1,4 @@
-name: Azure Pipelines
+name: Azure FakeWebApp
 
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
@@ -7,7 +7,7 @@ trigger:
 - main
 
 # ToDo: Replace the agent pool name, if you are using Udacity Cloud lab. 
-# Otherwise comment out the line below. 
+# Otherwise, comment out the line below. 
 pool: myAgentPool
 
 variables:
@@ -20,54 +20,47 @@ variables:
   environmentName: 'test'
 
 stages:
+#--------------------------------------------#  
+# BUILD STAGE
+#--------------------------------------------#    
 - stage: Build
   jobs:
-  - job: BuildInfrastructure
+  - job: BuildFakeWebApp
     steps:
-    # Install Terraform on the pipeline agent 
-    - task: TerraformInstaller@0
-      displayName: 'Terrafom installation'
+    #--------------------------------------------#    
+    # FakeRestAPI - Archive
+    # ToDo: Complete the ArchiveFiles@2 task and publish step 
+    - task: ArchiveFiles@2
+      displayName: 'Archive FakeRestAPI'
       inputs:
-        terraformVersion: '1.2.9'
-    
-    # Run Terraform Init on the pipeline agent 
-    # ToDo: Replace the resource group name, storage account name, and container name below
-    - task: TerraformTaskV3@3
-      displayName: 'Terrafom init'
-      inputs:
-        provider: 'azurerm'
-        command: 'init'
-        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-        backendServiceArm: '$(azureServiceConnectionId)'
-        backendAzureRmResourceGroupName: 'Azuredevops'
-        backendAzureRmStorageAccountName: 'tfstate137351017'
-        backendAzureRmContainerName: 'tfstate'
-        backendAzureRmKey: 'test.terraform.tfstate'
-
-    # Run Terraform Validate    
-    - task: TerraformTaskV3@3
-      displayName: Terraform validate
-      inputs:
-        provider: 'azurerm'
-        command: 'validate'
-
-    
-    # Run Terraform Apply
-    # ToDo: Change the workingDirectory path, as applicable to you
-    - task: TerraformTaskV3@3
-      displayName: Terraform apply
-      inputs:
-        provider: 'azurerm'
-        command: 'apply'
-        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-        environmentServiceNameAzureRM: '$(azureServiceConnectionId)'
-
-    # Destroy the resources in Azure
-    # ToDo: Change the workingDirectory path, as applicable to you
-    - task: TerraformTaskV3@3
-      displayName: Terraform destroy
-      inputs:
-        provider: 'azurerm'
-        command: 'destroy'
-        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-        environmentServiceNameAzureRM: '$(azureServiceConnectionId)'  
+        rootFolderOrFile: "$(System.DefaultWorkingDirectory)/automatedtesting/jmeter/fakerestapi"
+        includeRootFolder: false
+        archiveType: 'zip'
+        archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId)-fakerestapi.zip'
+    - publish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId)-fakerestapi.zip
+      displayName: 'Upload Package'
+      artifact: drop-fakerestapi
+#--------------------------------------------#  
+# DEPLOYMENT STAGE
+#--------------------------------------------#    
+- stage: Deploy
+  jobs:
+  #--------------------------------------------#  
+  # Deploy FakeRestAPI Web App
+  # ToDo: Provide <environment name> you created in your DevOps project
+  - deployment: FakeRestAPI
+    pool: Default     
+    environment: 'test'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: AzureWebApp@1
+            displayName: 'Deploy Azure Web App'
+            inputs:
+              azureSubscription: '$(azureServiceConnectionId)'     # ToDo
+              appName: 'FakeRestApiBV'               # ToDo
+              appType: webApp
+              package: '$(Pipeline.Workspace)/drop-fakerestapi/$(Build.BuildId)-fakerestapi.zip'# ToDo: Use the published zip artifact. 
+          #--------------------------------------------#    
+ 
