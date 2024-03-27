@@ -49,7 +49,7 @@ stages:
   # Deploy FakeRestAPI Web App
   # ToDo: Provide <environment name> you created in your DevOps project
   - deployment: FakeRestAPI
-    pool: Default     
+    pool: myAgentPool     
     environment: 'test'
     strategy:
       runOnce:
