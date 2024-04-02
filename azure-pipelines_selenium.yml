@@ -37,9 +37,9 @@ variables:
   # ToDo: 
   - deployment: VMDeploy
     displayName: Selenium Tests
-    environment:
-      name: targetEnv       # ToDo: Change/provide a name
-      resourceType: VirtualMachine
+    pool: myAgentPool     
+    environment: 'test'
+    strategy:
     strategy:
       runOnce:
         deploy:
