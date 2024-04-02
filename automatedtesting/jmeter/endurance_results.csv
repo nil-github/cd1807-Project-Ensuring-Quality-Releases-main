@@ -1,0 +1,2224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="15993" it="0" lt="15596" ct="910" ts="1712054271737" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-1" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:06 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=1</java.net.URL>
+</httpSample>
+<httpSample t="14133" it="0" lt="13725" ct="868" ts="1712054273608" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-2" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:06 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=2</java.net.URL>
+</httpSample>
+<httpSample t="440" it="0" lt="440" ct="0" ts="1712054287738" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-1" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:07 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=3</java.net.URL>
+</httpSample>
+<httpSample t="463" it="0" lt="463" ct="0" ts="1712054287743" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-2" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:07 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=4</java.net.URL>
+</httpSample>
+<httpSample t="345" it="0" lt="345" ct="0" ts="1712054288180" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-1" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:08 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=5</java.net.URL>
+</httpSample>
+<httpSample t="368" it="0" lt="368" ct="0" ts="1712054288216" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-2" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:08 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=1</java.net.URL>
+</httpSample>
+<httpSample t="359" it="0" lt="359" ct="0" ts="1712054288529" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-1" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:08 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=2</java.net.URL>
+</httpSample>
+<httpSample t="371" it="0" lt="370" ct="0" ts="1712054288586" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-2" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:08 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=3</java.net.URL>
+</httpSample>
+<httpSample t="500" it="0" lt="500" ct="0" ts="1712054288890" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-1" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:08 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=4</java.net.URL>
+</httpSample>
+<httpSample t="572" it="0" lt="571" ct="0" ts="1712054288959" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-2" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:09 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=5</java.net.URL>
+</httpSample>
+<httpSample t="346" it="0" lt="346" ct="0" ts="1712054289400" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-1" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:09 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=1</java.net.URL>
+</httpSample>
+<httpSample t="456" it="0" lt="455" ct="0" ts="1712054289750" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-1" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:09 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=3</java.net.URL>
+</httpSample>
+<httpSample t="676" it="0" lt="675" ct="0" ts="1712054289533" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-2" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:09 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=2</java.net.URL>
+</httpSample>
+<httpSample t="1002" it="0" lt="1001" ct="0" ts="1712054290210" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-1" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:10 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=4</java.net.URL>
+</httpSample>
+<httpSample t="1056" it="0" lt="1056" ct="0" ts="1712054290214" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-2" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:10 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=5</java.net.URL>
+</httpSample>
+<httpSample t="346" it="0" lt="345" ct="0" ts="1712054291272" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-2" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:11 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=2</java.net.URL>
+</httpSample>
+<httpSample t="602" it="0" lt="602" ct="0" ts="1712054291222" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-1" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:11 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=1</java.net.URL>
+</httpSample>
+<httpSample t="500" it="0" lt="499" ct="0" ts="1712054291620" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-2" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:11 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=3</java.net.URL>
+</httpSample>
+<httpSample t="415" it="0" lt="414" ct="0" ts="1712054292124" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-2" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="2" na="2" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:12 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=5</java.net.URL>
+</httpSample>
+<httpSample t="1562" it="0" lt="1562" ct="0" ts="1712054291829" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Endurance Test 1-1" dt="text" de="" by="4770" sby="169" sc="1" ec="0" ng="1" na="1" hn="BNGEST-L-99705">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 4554
+Content-Type: text/html
+Date: Tue, 02 Apr 2024 10:38:12 GMT
+Server: nginx/1.24.0
+Accept-Ranges: bytes
+ETag: &quot;660bdc21-11ca&quot;
+Last-Modified: Tue, 02 Apr 2024 10:21:21 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+test: ${number}
+Host: myapplication-appservice.azurewebsites.net
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_401)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+    &lt;title&gt;Microsoft Azure App Service - Welcome&lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://appservice.azureedge.net/images/app-service/v4/favicon.ico&quot;
+        type=&quot;image/x-icon&quot; /&gt;
+    &lt;link href=&quot;https://appservice.azureedge.net/css/app-service/v4/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;
+        crossorigin=&quot;anonymous&quot; /&gt;
+    &lt;style&gt;
+        html,
+        body {
+            height: 100%;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        * {
+            border-radius: 0 !important;
+        }
+    &lt;/style&gt;
+    &lt;script src=&quot;https://appservice.azureedge.net/js/app-service/v4/loc.min.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+    &lt;script
+        type=&quot;text/javascript&quot;&gt;window.onload = function () { try { var a = window.location.hostname; if (a.includes(&quot;.azurewebsites.net&quot;)) { a = a.replace(&quot;.azurewebsites.net&quot;, &quot;&quot;) }; var b = document.getElementById(&quot;depCenterLink&quot;); b.setAttribute(&quot;href&quot;, b.getAttribute(&quot;href&quot;) + &quot;&amp;sitename=&quot; + a); loc() } catch (d) { } }&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+        &lt;div class=&quot;navbar-brand &quot;&gt;
+            &lt;div class=&quot;container pl-4 ml-5&quot;&gt;&lt;img
+                    src=&quot;https://appservice.azureedge.net/images/app-service/v4/azurelogo.svg&quot; width=&quot;270&quot; height=&quot;108&quot;
+                    alt=&quot;&quot; /&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;container-fluid mr-2 mt-5 pt-5&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-xs-12 col-sm-12 d-block d-lg-none d-xl-none d-md-block d-sm-block d-xs-block&quot;&gt;
+                &lt;div class=&quot;text-center&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pl-5 ml-5 col-xl-5 col-lg-5 col-md-10 col-sm-11 col-xs-11&quot;&gt;
+                &lt;div class=&quot;container-fluid&quot;&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;h2 id=&quot;upRunning&quot;&gt;Your web app is running and waiting for your content&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4 pt-4&quot;&gt;
+                        &lt;div id=&quot;appIsLive&quot; style=&quot;font-size:16px;width: 516px;&quot;&gt;Your web app is live, but we don’t have
+                            your content yet. If you’ve already deployed, it could take up to 5 minutes for your content
+                            to show up, so come back soon.&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row mt-4&quot;&gt;
+                        &lt;h5 id=&quot;supporting&quot; class=&quot;mt-5&quot;&gt;&lt;img height=&quot;50&quot; width=&quot;50&quot;
+                                src=&quot;https://appservice.azureedge.net/images/linux-landing-page/v4/built-php.svg&quot; /&gt; Built with PHP&lt;/h5&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-5 col-lg-5 col-md-12 d-none d-lg-block&quot;&gt;
+                &lt;div class=&quot;text-left&quot;&gt;&lt;img src=&quot;https://appservice.azureedge.net/images/app-service/v4/web.svg&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-xl-1 col-lg-1 col-md-1&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;row mt-4&quot;&gt;
+            &lt;div class=&quot;container-fluid&quot;&gt;
+                &lt;div class=&quot;row mt-3&quot;&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;haventDeployed&quot;&gt;Haven’t deployed yet?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;useDCenter&quot;&gt;Use the
+                                deployment center to publish code or set up continuous deployment.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                id=&quot;depCenterLink&quot; href=&quot;https://go.microsoft.com/fwlink/?linkid=2057852&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;deplCenter&quot;&gt;Deployment
+                                    center&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;pl-5 ml-5 col-md-2 mt-4&quot;&gt;
+                        &lt;p&gt;&lt;span id=&quot;newWebSite&quot;&gt;Starting a new web site?&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;followQS&quot;&gt;Follow our
+                                Quickstart guide to get a web app ready quickly.&lt;/span&gt;&lt;br /&gt;&lt;a
+                                href=&quot;https://go.microsoft.com/fwlink/?linkid=2084231&quot;&gt;&lt;button
+                                    class=&quot;btn btn-primary mt-4&quot; type=&quot;submit&quot; id=&quot;quickStart&quot;&gt;Quickstart&lt;/button&gt;&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://myapplication-appservice.azurewebsites.net/?id=4</java.net.URL>
+</httpSample>
+
+</testResults>
